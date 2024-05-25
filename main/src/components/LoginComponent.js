@@ -36,7 +36,7 @@ const LoginComponent = () => {
                                 <div className="mb-3 form-check">
                                     <input type="checkbox" className="form-check-input" id="agreeCheckbox" />
                                     <label className="form-check-label" htmlFor="agreeCheckbox">
-                                        By continuing, I agree to the <Link to="/terms">Terms And Conditions</Link> of FashionFusion
+                                        By continuing, I agree to the <Link to="/term">Terms And Conditions</Link> of FashionFusion
                                     </label>
                                 </div>
                                 <div className="d-grid">
@@ -44,7 +44,7 @@ const LoginComponent = () => {
                                 </div>
                             </form>
                             <div className="text-center mt-3">
-                                <Link to="/password-reset">Forgot Password?</Link>
+                                <Link to="/pass">Forgot Password?</Link>
                             </div>
                         </div>
                     </div>
